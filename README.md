@@ -34,6 +34,8 @@ llm -f md:https://llm.datasette.io/en/stable/plugins/index.html 'Summarize the t
 llm -f md:github.com/simonw/llm 'What is the main goal of this LLM tool?'
 ```
 
+**Note:** If your URL contains special characters (like `?` or `&`), you **must** enclose the entire fragment identifier (e.g., `md:https://...`) in single or double quotes on the command line. This prevents your shell from misinterpreting the URL.
+
 The plugin prepends `https://` if no protocol (like `http://` or `https://`) is specified in the URL. The fetched content is the Markdown representation of the webpage.
 
 ### Jina Reader API Token (Optional)
