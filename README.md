@@ -2,7 +2,6 @@
 
 [![PyPI](https://img.shields.io/pypi/v/llm-url-markdown.svg)](https://pypi.org/project/llm-url-markdown/)
 [![Changelog](https://img.shields.io/github/v/release/saeedesmaili/llm-url-markdown?include_prereleases&label=changelog)](https://github.com/saeedesmaili/llm-url-markdown/releases)
-[![Tests](https://github.com/saeedesmaili/llm-url-markdown/actions/workflows/test.yml/badge.svg)](https://github.com/saeedesmaili/llm-url-markdown/actions/workflows/test.yml)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/saeedesmaili/llm-url-markdown/blob/main/LICENSE)
 
 LLM plugin for pulling web page content as Markdown.
