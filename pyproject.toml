@@ -7,7 +7,8 @@ authors = [{name = "Saeed Esmaili"}]
 license = {text = "Apache-2.0"}
 classifiers = []
 dependencies = [
-    "llm>=0.24"
+    "llm>=0.24",
+    "httpx"
 ]
 requires-python = ">=3.9"
 
